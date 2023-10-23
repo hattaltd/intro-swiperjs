@@ -1,0 +1,3 @@
+.swiper-container .swiper-wrapper {
+    @apply ease-linear duration-1000;
+}
