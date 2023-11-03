@@ -3,13 +3,13 @@ import SwiperHalfRounded from "../container/page-one/swiper-half-rounded/SwiperH
 import Basic from "../container/page-one/basic/Basic";
 
 const BasicOne = () => {
-  return (
-    <main>
-      {/* <SwiperInfinite /> */}
-      <SwiperHalfRounded />
-      {/* <Basic /> */}
-      <section className="h-screen"></section>
-    </main>
-  );
+    return (
+        <main>
+            {/* <SwiperInfinite /> */}
+            {/* <SwiperHalfRounded /> */}
+            <Basic />
+            <section className="h-screen"></section>
+        </main>
+    );
 };
 export default BasicOne;
