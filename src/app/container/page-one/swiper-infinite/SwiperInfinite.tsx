@@ -24,6 +24,13 @@ const SwiperInfinite = () => {
         </p>
       </div>
       <div className="relative mt-48 swiper-container w-full">
+        <style>
+          {`
+          .swiper-container .swiper-wrapper {
+                @apply ease-linear duration-1000;
+            }
+          `}
+        </style>
         <Swiper
           className="swiper-wrapper w-full"
           modules={[Autoplay, Grid]}
