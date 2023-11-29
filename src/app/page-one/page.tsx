@@ -9,6 +9,7 @@ const BasicOne = () => {
       {/* <SwiperInfinite /> */}
       {/* <Basic /> */}
       {/* <SwiperHalfRounded /> */}
+      {/* Test */}
       <SwiperVertical />
       <section className="h-screen"></section>
     </main>
